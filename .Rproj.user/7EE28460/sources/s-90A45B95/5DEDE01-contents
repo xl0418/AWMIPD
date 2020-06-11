@@ -1,0 +1,19 @@
+Package: AWMIPD
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Liang",
+           family = "Xu",
+           role = c("aut", "cre"),
+           email = "xl0418@gmail.com",
+           comment = c(ORCID = "0000-0002-5528-1298"))
+Maintainer: Liang Xu <xl0418@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: ape,
+         ggplot2
+           
