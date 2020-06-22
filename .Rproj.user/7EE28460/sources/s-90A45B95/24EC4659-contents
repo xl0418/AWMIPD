@@ -11,7 +11,7 @@ if (!exists('bci.full7')) {
 bci_alive_data <-
   subset(bci.full7,
          status = 'A',
-         select = c('sp', 'gx', 'gy'))
+         select = c('sp', 'gx', 'gy', 'dbh'))
 sp_code <- unique(bci_alive_data[, 1])
 
 # Get full species names
